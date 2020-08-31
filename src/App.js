@@ -10,7 +10,7 @@ function App() {
         <ul>
           <li><span className="font-weight-bold">Emails: </span>is.li.xiaoyu@qq.com, leosirius666@gmail.com (choose one, both work)</li>
           <li><span className="font-weight-bold">Github: </span><a target="_blank" href="https://github.com/LeoSirius">https://github.com/LeoSirius</a></li>
-          <li><span className="font-weight-bold">Blog: </span><a target="_blank" href="https://leosirius.fun/">https://leosirius.fun/</a></li>
+          <li><span className="font-weight-bold">Blog: </span><a target="_blank" href="https://leosirius.github.io/blog/">https://leosirius.github.io/blog/</a></li>
         </ul>
         <div>
         </div>
