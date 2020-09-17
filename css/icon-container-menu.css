@@ -1,0 +1,69 @@
+.icon-container-menu {
+  z-index: 11;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+
+  width: 30px;
+  height: 3px;
+  margin: 6px 0;
+
+  background-color: #A5ACBC;
+  
+  transition: 0.4s;
+}
+
+@keyframes bar1-to-normal {
+  70% {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes bar1-to-X {
+  to {
+    transform: rotate(-405deg) translate(-9px, 3px);
+  }
+}
+
+.bar1 {
+  animation: bar1-to-normal 0.2s forwards ease-in;
+}
+
+.change .bar1 {
+  background-color: white;
+  animation: bar1-to-X 0.2s forwards;
+}
+
+.change .bar2 {opacity: 0;}
+
+@keyframes bar3-to-normal {
+  70% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes bar3-to-X {
+  to {
+    transform: rotate(405deg) translate(-8px, -5px);
+  }
+}
+
+.bar3 {
+  animation: bar3-to-normal 0.2s forwards ease-in;
+}
+
+.change .bar3 {
+  background-color: white;
+  animation: bar3-to-X 0.2s forwards;
+}

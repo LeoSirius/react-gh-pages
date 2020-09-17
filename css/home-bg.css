@@ -1,0 +1,85 @@
+.home-bg {
+  width: 720px;
+  height: 80vh;
+  margin: 10px auto;
+}
+
+.home-bg .home-logo {
+  display: flex;
+  justify-content: space-evenly;
+
+  font-family: 'Monoton', cursive;
+  font-size: 450px;
+  color: brown;
+}
+
+@keyframes l-from-left {
+  0% {
+    transform: translateX(-1000px);
+  }
+}
+
+@keyframes s-from-right {
+  0% {
+    transform: translateX(1000px);
+  }
+}
+
+.home-bg .home-logo .home-logo-l {
+  animation: l-from-left 1s cubic-bezier(.69,.23,.59,1.13);
+}
+
+.home-bg .home-logo .home-logo-s {
+  animation: s-from-right 1s cubic-bezier(.69,.23,.59,1.13);
+}
+
+.home-bg .home-name {
+  position: relative;
+  top: -550px;
+
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 80px;
+}
+
+.home-bg .home-name .home-name-box.sirius {
+  position: relative;
+  top: 150px;
+  left: 600px;
+}
+
+@keyframes name-from-bottom {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-200px);
+  }
+}
+
+.home-bg .home-name .home-name-box {
+  overflow: hidden;
+  width: 420px;
+}
+
+.home-bg .home-name .home-name-text-leo {
+  position: relative;
+  top: 200px;
+  animation: name-from-bottom 1s 0.5s forwards;
+}
+
+.home-bg .home-name .home-name-text-sirius {
+  position: relative;
+  top: 200px;
+  animation: name-from-bottom 1s 1s forwards;
+}
+
+.home-bg .home-foot-text {
+  /* margin: 20px auto; */
+  text-align: center;
+  font-family: "Arial", Gadget, sans-serif;
+  font-size: 20px;
+
+  position: relative;
+  top: -380px;
+  
+}
