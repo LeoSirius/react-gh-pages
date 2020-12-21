@@ -1,7 +1,16 @@
-body {
-  background-color: #FEFBF5;
-  width: 100vw;
-  margin: 0px;
-  padding-bottom: 50px;
+.content {
+  margin-left: 200px;
+  margin-top: 50px;
 }
+
+ul h4 {
+  margin: 0px;
+}
+
+ul p {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+
 

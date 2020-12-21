@@ -1,125 +1,78 @@
 <html>
 
 <link rel="icon" href="./icons/e2.jpeg" />
-<title>Leo's Home Page</title>
-
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Monoton&display=swap">
-<link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="./css/main.css"/>
-
-<link rel="stylesheet" href="./css/icon-container-menu.css"/>
-
-<link rel="stylesheet" href="./css/profile-bg.css"/>
-<link rel="stylesheet" href="./css/profile-content.css"/>
-
-<link rel="stylesheet" href="./css/home-bg.css"/>
-
-<link rel="stylesheet" href="./css/projects.css"/>
+<link rel="stylesheet" href="./css/main.css">
+<title>Leo的主页</title>
 
 <body>
+  <div class="content">
+    <p>Hi~，我是LeoSirius，这是我中文本名的音译和意译</p>
+    <p>不想把个人主页搞的太复杂了，就用这个简单明了。</p>
+    <p>需要联系我可以发邮件到<a href="mailto:is.li.xiaoyu@qq.com">is.li.xiaoyu@qq.com</a>。我的<a href="https://www.github.com/LeoSirius">Github</a></p>
 
-  <div class="profile-bg" id="profile-bg">
-    <div class="profile-content" id="profile-content">
-      <div class="profile-nav-header">
-        <div class="profile-nav-bar"></div>
-        <span class="profile-name">Leo Sirius</span>
-      </div>
-      <ul class="profile-category">
-        <li><a href="/">Overview</a></li>
-        <li><a href="https://www.leosirius.com/#projects">Projects</a></li>
-        <!-- <li><a>Works</a></li> -->
-        <li><a href="https://leosirius.github.io/blog/">Blog</a></li>
-      </ul>
-      <div class="profile-footer" id="profile-footer">
-        <a class="profile-footer-item" href="https://github.com/LeoSirius">
-          Github
-        </a>
-        <a class="profile-footer-item" href="https://www.zhihu.com/people/li-xiao-yu-16-37">
-          Zhihu
-        </a>
-        <a class="profile-footer-item" href="/">
-          Twitter
-        </a>
-      </div>
-    </div>
+
+    <h2>我的项目</h2>
+    <ul>
+      <li>
+        <h4><a href="https://github.com/LeoSirius/leetcode_solutions">leetcode题解</a></h4>
+        <p>一个leetcode多语言、多方法的题解集，基本上都有单元测试</p>
+      </li>
+    </ul>
+
+    <h2>我的写作</h2>
+    <ul>
+      <li>
+        <h4><a href="https://github.com/LeoSirius/tech_writing">技术写作</a></h4>
+        <p>这是我对计算机科学与技术的理解和总结</p>
+      </li>
+      <li>
+        <h4><a href="https://github.com/LeoSirius/non_tech_writing">非技术写作</a></h4>
+        <p>这是上一个的补集</p>
+      </li>
+      <li>
+        <h4><a href="hhttps://github.com/LeoSirius/chinese_classics">读古文</a></h4>
+        <p>这个本应属于非技术写作，不过自成体系，故独立出来</p>
+      </li>
+    </ul>
+
+    <h2>我的工作</h2>
+
+    <ul>
+
+      <li>
+        <h4>
+          <a href="https://seatable.cn/">SeaTable</a>
+        </h4>
+        <p>这是我在
+          <a href="https://github.com/haiwen">海文互知</a>
+          参与开发的项目。SeaTable 是一款新型的在线协同表格和信息管理工具。我负责后端功能的开发</p>
+      </li>
+
+      <li>
+        <h4>
+          <a href="https://github.com/haiwen/seafile">Seafile</a>
+        </h4>
+        <p>这是我在
+          <a href="https://github.com/haiwen">海文互知</a>
+          参与开发的项目。Seafile是一个开源的企业云盘。我负责后端功能的开发</p>
+      </li>
+
+      <li>
+        <h4>
+          <a href="https://store.steampowered.com/app/558100/Art_of_War_Red_Tides/?l=schinese">
+            《战争艺术：赤潮》
+          </a>
+        </h4>
+        <p>我在
+          <a href="https://www.gamesci.com.cn/">游戏科学</a>
+          时参与了这款游戏的客户端开发</p>
+      </li>
+    </ul>
+
+    <!-- <h3>我的教程</h3>
+    <ul></ul> -->
   </div>
-
-  <div class="icon-container-menu" id="icon-container-menu">
-    <div class="bar1"></div>
-    <div class="bar2"></div>
-    <div class="bar3"></div>
-  </div>
-
-  <div class="home-bg">
-    <div class="home-logo">
-      <div class="home-logo-l">L</div>
-      <div class="home-logo-s">S</div>
-    </div>
-    <div class="home-name">
-      <div class="home-name-box leo">
-        <div class="home-name-text-leo">Leo</div>
-      </div>
-      <div class="home-name-box sirius">
-        <div class="home-name-text-sirius">Sirius</div>
-      </div>
-    </div>
-    <div class="home-foot-text">I code, play, & make love.</div>
-  </div>
-
-  <div class="projects" id="projects">
-    <div class="project-title">Projects.</div>
-    <div class="box-container">
-      <div class="box p1" id="box1"
-      onclick="window.location.href = 'https://github.com/LeoSirius/open_dict'"
-      >
-        <div class="view-more" id="view-more1">
-          <div class="view-more-text">
-            View project
-          </div>
-        </div>
-        <div class="title" id="title1">Open dict</div>
-        <div class="icon icon1" id="icon1"></div>
-        <div class="description" id="description1">
-          A open web dictionary service.
-        </div>
-      </div>
-      <div class="box p2" id="box2"
-      onclick="window.location.href = 'https://github.com/LeoSirius/leetcode_solutions'"
-      >
-        <div class="view-more" id="view-more2">
-          <div class="view-more-text">
-            View project
-          </div>
-        </div>
-        <div class="title" id="title2">Leetcode solutions</div>
-        <div class="icon icon2" id="icon2"></div>
-        <div class="description" id="description2">
-          My leetcode solutions in multiple languages and methods.
-        </div>
-      </div>
-      <div class="box p3" id="box3"
-      onclick="window.location.href = 'https://github.com/LeoSirius/meta_c'"
-      >
-        <div class="view-more" id="view-more3">
-          <div class="view-more-text">
-            View project
-          </div>
-        </div>
-        <div class="title" id="title3">Meta c</div>
-        <div class="icon icon3" id="icon3"></div>
-        <div class="description"id="description3">
-          A c implmentation of data structures and algorithms.
-        </div>
-      </div>
-    </div>
-
-  </div>
-
 
 </body>
-
-<script src="./index.js"></script>
-<script src="./profile.js"></script>
 
 </html>
